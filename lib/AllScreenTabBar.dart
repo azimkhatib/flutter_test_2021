@@ -20,7 +20,7 @@ class _AllScreenTabState extends State<AllScreenTab> with TickerProviderStateMix
   List<Widget> PortfolioPages = [
     FirestPage(),
     SecondScreen(),
-    FirstRoute(),
+    ThiredScreen(),
     FourthScreen(),
   ];
   TabController _tabControllerPortfolioa;

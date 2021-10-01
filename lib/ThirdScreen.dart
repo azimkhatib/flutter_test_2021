@@ -6,14 +6,14 @@ import 'package:page_transition/page_transition.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'MusicPlay.dart';
 import 'SecondScreen.dart';
-class FirstRoute extends StatefulWidget {
+class ThiredScreen extends StatefulWidget {
 
 
   @override
-  _FirstRouteState createState() => _FirstRouteState();
+  _ThiredScreenState createState() => _ThiredScreenState();
 }
 
-class _FirstRouteState extends State<FirstRoute> {
+class _ThiredScreenState extends State<ThiredScreen> {
     bool _like = false;
   @override
   void initState() {
