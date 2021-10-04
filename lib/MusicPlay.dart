@@ -13,7 +13,7 @@ class _MusicPlayState extends State<MusicPlay> {
   bool _pause = true;
   void song() async {
     assetsAudioPlayer.open(
-      Audio.network("https://mrpaji.com/siteuploads/files/sfd15/7125/Lut%20Gaye_320-(MrPaji.com).mp3"),
+      Audio.network("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"),
       autoStart: _play,
       showNotification: true,
       loopMode: LoopMode.single,
